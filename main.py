@@ -50,6 +50,33 @@ class Window(QMainWindow):
 
         push0= QPushButton("0",self)
         push0.setGeometry(95,300,80,40)
+
+        push_equal = QPushButton("=",self)
+        push_equal.setGeometry(185,300,80,40)
+
+        push_dot = QPushButton(".",self)
+        push_dot.setGeometry(5,300,80,40)
+
+        push_plus = QPushButton("+",self)
+        push_plus.setGeometry(275,150,80,40)
+
+        push_minus = QPushButton("-",self)
+        push_minus.setGeometry(275,200,80,40)
+
+        push_mul = QPushButton("x",self)
+        push_mul.setGeometry(275,250,80,40)
+
+        push_div = QPushButton("/",self)
+        push_div.setGeometry(275,300,80,40)
+
+        push_clear = QPushButton("CLEAR",self)
+        push_clear.setGeometry(5,100,200,40)
+
+        push_del = QPushButton("DEL",self)
+        push_del.setGeometry(210,100,145,40)
+        
+        
+
         
 App = QApplication(sys.argv)
 window = Window()
